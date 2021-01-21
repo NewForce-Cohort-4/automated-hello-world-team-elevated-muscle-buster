@@ -1,11 +1,17 @@
 const italyCityArray = [
     {
-        name: "Michaelangelo"
+        name: "Rome"
     },
     {
-        name: "Julius Ceasar"
+        name: "Venice"
     },
     {
-        name: "Leonardo Davinci"
+        name: "Milan"
     }
 ]
+
+//Exports to CityList.js
+
+export function useItalyCity() {
+    return italyCityArray.slice()
+}
