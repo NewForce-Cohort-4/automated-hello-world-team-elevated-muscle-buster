@@ -1,7 +1,7 @@
 import {useMexicoCity} from "./CityDataProvider.js"
 import {MexicoCity} from "./City.js"
 
-let mexicoCityContainer = document.querySelector(".city-list-container")
+let mexicoCityContainer = document.querySelector(".Mexicocity-list-container")
 
 // Exports to main.js
 export function MexicoCityList() {

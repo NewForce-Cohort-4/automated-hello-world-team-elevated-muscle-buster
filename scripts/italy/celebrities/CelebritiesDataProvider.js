@@ -6,11 +6,11 @@
                 name: "Julius Ceasar"
             },
             {
-                name: "Leonardo Davinci"
+                name: "Leonardo Da Vinci"
             }
 ]
 
-
+//Exports to Celebrity.js
 export function useItalyCelebrity() {
     return italyCelebrityArray.slice()
 }
