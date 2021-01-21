@@ -1,7 +1,7 @@
 import {exportedCelebrities} from "./CelebritiesDataProvider.js"
-import {individualThailandCelebrity} from "./Celebrity"
+import {individualThailandCelebrity} from "./Celebrity.js"
 
-let thailandCelebrityContainer = document.querySelector(".celebrity-list-container")
+let thailandCelebrityContainer = document.querySelector(".thailandcelebrity-list-container")
 
 export function thailandCelebrityList() {
 

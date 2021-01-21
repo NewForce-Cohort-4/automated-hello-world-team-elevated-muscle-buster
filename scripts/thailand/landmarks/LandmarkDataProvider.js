@@ -9,3 +9,7 @@ const thailandLandmarkArray = [
         name: "Erawan Nat'l Park"
     }
 ]
+
+export function exportedLandmarks() {
+    return thailandLandmarkArray.slice()
+}

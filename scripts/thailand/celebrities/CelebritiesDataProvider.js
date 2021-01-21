@@ -11,5 +11,5 @@ const thailandCelebrityArray = [
 ]
 
 export function exportedCelebrities() {
-    return thailandCelebrityArray.slice
+    return thailandCelebrityArray.slice()
 }
