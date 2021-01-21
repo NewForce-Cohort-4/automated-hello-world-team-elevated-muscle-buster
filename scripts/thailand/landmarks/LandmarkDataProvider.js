@@ -1,11 +1,15 @@
 const thailandLandmarkArray = [
     {
-        name: "Michaelangelo"
+        name: "Phang Nga Bay"
     },
     {
-        name: "Julius Ceasar"
+        name: "Mu Koh Angthong"
     },
     {
-        name: "Leonardo Davinci"
+        name: "Erawan Nat'l Park"
     }
 ]
+
+export function exportedLandmarks() {
+    return thailandLandmarkArray.slice()
+}

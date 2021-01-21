@@ -1,11 +1,15 @@
 const thailandCityArray = [
     {
-        name: "Michaelangelo"
+        name: "Bangkok"
     },
     {
-        name: "Julius Ceasar"
+        name: "Chiang Mi"
     },
     {
-        name: "Leonardo Davinci"
+        name: "Phuket"
     }
 ]
+
+export function exportedCities() {
+    return thailandCityArray.slice()
+}
