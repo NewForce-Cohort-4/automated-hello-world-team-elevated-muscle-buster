@@ -1,11 +1,17 @@
 const italyLandmarkArray = [
     {
-        name: "Michaelangelo"
+        name: "The Colosseum"
     },
     {
-        name: "Julius Ceasar"
+        name: "The Grand Canal"
     },
     {
-        name: "Leonardo Davinci"
+        name: "Sistine Chapel"
     }
 ]
+
+//Exports to LandmarkList.js
+
+export function useItalyLandmark() {
+    return italyLandmarkArray.slice()
+}
