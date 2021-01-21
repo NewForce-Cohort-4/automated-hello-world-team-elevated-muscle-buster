@@ -1,7 +1,7 @@
 import {italyCity} from "./City.js"
 import {useItalyCity} from "./CityDataProvider.js"
 
-let italyCityContainer = document.querySelector("#city-list-container")
+let italyCityContainer = document.querySelector(".city-list-container")
 
 //export to main.js
 export function ItalyCityList(){
