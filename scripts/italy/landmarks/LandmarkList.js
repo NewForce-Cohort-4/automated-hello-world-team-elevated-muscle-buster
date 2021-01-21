@@ -1,7 +1,7 @@
 import {useItalyLandmark} from "./LandmarkDataProvider.js"
 import {italyLandmark} from "./Landmark.js"
 
-let italyLandmarkContainer = document.querySelector("#landmark-list-container")
+let italyLandmarkContainer = document.querySelector(".Italylandmark-list-container")
 
 // Exports to main.js
 export function ItalyLandmarkList() {

@@ -1,7 +1,7 @@
 import {useMexicoCelebrity} from "./CelebritiesDataProvider.js"
 import {mexicoCelebrity} from "./Celebrity.js"
 
-let mexicoCelebrityContainer = document.querySelector(".celebrity-list-container")
+let mexicoCelebrityContainer = document.querySelector(".Mexicocelebrity-list-container")
 
 
 // Exports to main.js
