@@ -1,11 +1,15 @@
 const thailandCelebrityArray = [
     {
-        name: "Michaelangelo"
+        name: "BamBam"
     },
     {
-        name: "Julius Ceasar"
+        name: "Tony Jaa"
     },
     {
-        name: "Leonardo Davinci"
+        name: "Tata Young"
     }
 ]
+
+export function exportedCelebrities() {
+    return thailandCelebrityArray.slice
+}

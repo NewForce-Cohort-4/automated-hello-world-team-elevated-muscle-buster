@@ -1,11 +1,11 @@
 const thailandCityArray = [
     {
-        name: "Michaelangelo"
+        name1: "Bangkok"
     },
     {
-        name: "Julius Ceasar"
+        name2: "Chiang Mi"
     },
     {
-        name: "Leonardo Davinci"
+        name3: "Phuket"
     }
 ]

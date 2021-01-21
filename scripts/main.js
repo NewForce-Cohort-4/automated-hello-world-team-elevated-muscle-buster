@@ -19,10 +19,10 @@ MexicoLandmarkList()
 
 
 // Thailand Imports
+import {thailandCelebrityList} from "./thailand/celebrities/CelebrityList.js"
 
 // Thailand Functions
-
-
+thailandCelebrityList()
 
 
 // Turkey Imports
