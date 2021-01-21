@@ -1,11 +1,17 @@
 const mexicoCelebrityArray = [
     {
-        name: "Michaelangelo"
+        name: "El Chapo Guzman"
     },
     {
-        name: "Julius Ceasar"
+        name: "Carlos Santana"
     },
     {
-        name: "Leonardo Davinci"
+        name: "Canelo Alvarez"
     }
 ]
+
+// Exports to CelebrityList.js
+export function useMexicoCelebrity() {
+    return mexicoCelebrityArray.slice()
+}
+

@@ -1,6 +1,9 @@
-{/* <h2>List of cities</h2>
-            <ul class = 'list-child'>
-                <li class = 'list-item'>Rome</li>
-                <li class = 'list-item'>Florence</li>
-                <li class = 'list-item'>Milan</li>
-            </ul> */}
+// Exports to CityList.js
+export function MexicoCity(cityObject) {
+    return `
+    <article class="city-card">
+        <ul class="list-child">
+            <li class="list-item">${cityObject.city}</li>
+        </ul>
+    </article>`
+}

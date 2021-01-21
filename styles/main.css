@@ -90,7 +90,7 @@ nav {
 
 .name-head {
     display: flex;
-    background-image: url(/images/Italy.png);
+    background-image: url(/images/Mexico-copy.png);
     align-items: flex-end;
     justify-content: flex-end;
     height: 25vh;
@@ -119,7 +119,7 @@ main {
     width: 31vw;
     padding: 1em;
     height: 45vh;
-    text-align: center;
+    justify-content: center;
 }   
 
 .list-child {
@@ -127,6 +127,7 @@ main {
     list-style: none;
     font-size: 1.5em;
     padding: 0;
+    text-align: center;
 }
 
 .list-item {

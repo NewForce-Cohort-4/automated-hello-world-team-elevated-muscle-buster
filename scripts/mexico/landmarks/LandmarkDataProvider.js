@@ -1,11 +1,16 @@
 const mexicoLandmarkArray = [
     {
-        name: "Michaelangelo"
+        landmark: "Ángel de la Independencia"
     },
     {
-        name: "Julius Ceasar"
+        landmark: "Zócalo"
     },
     {
-        name: "Leonardo Davinci"
+        landmark: "Catedral Metropolitana"
     }
 ]
+
+// Exports to LandmarkList.js
+export function useMexicoLandmark() {
+    return mexicoLandmarkArray.slice()
+}

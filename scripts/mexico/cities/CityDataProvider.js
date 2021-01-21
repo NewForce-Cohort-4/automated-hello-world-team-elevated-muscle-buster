@@ -1,11 +1,16 @@
 const mexicoCityArray = [
     {
-        name: "Michaelangelo"
+        city: "Mexico City"
     },
     {
-        name: "Julius Ceasar"
+        city: "Ecatepec"
     },
     {
-        name: "Leonardo Davinci"
+        city: "Guadalajara"
     }
 ]
+
+// Exports to CityList.js
+export function useMexicoCity() {
+    return mexicoCityArray.slice()
+}
