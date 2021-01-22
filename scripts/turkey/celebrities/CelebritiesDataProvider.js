@@ -1,12 +1,12 @@
 const turkeyCelebrityArray = [
     {
-        name: "xx"
+        name: " Beren Saat"
     },
     {
-        name: "yy"
+        name: "Tuba Büyüküstün"
     },
     {
-        name: "zz"
+        name: " Hazal Kaya"
     }
 ]
 

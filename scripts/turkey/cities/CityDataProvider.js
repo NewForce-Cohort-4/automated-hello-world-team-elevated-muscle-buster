@@ -1,12 +1,12 @@
 const turkeyCityArray = [
     {
-        name: "hh"
+        name: "Istanbul"
     },
     {
-        name: "VV"
+        name: "Antalya"
     },
     {
-        name: "MM"
+        name: "Bursa"
     }
 ]
 

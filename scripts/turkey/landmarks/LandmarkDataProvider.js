@@ -1,12 +1,12 @@
 const turkeyLandmarkArray = [
     {
-        name: "The"
+        name: "HAGIA SOPHIA"
     },
     {
-        name: "Canal"
+        name: "SULTANAHMET MOSQUE"
     },
     {
-        name: "LL"
+        name: "DOLMABAHCE PALACEL"
     }
 ]
 
