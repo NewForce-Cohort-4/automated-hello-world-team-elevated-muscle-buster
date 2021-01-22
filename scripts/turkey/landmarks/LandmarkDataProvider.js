@@ -1,11 +1,17 @@
 const turkeyLandmarkArray = [
     {
-        name: "Michaelangelo"
+        name: "The"
     },
     {
-        name: "Julius Ceasar"
+        name: "Canal"
     },
     {
-        name: "Leonardo Davinci"
+        name: "LL"
     }
 ]
+
+//Exports to LandmarkList.js
+
+export function useturkeyLandmark() {
+    return turkeyLandmarkArray.slice()
+}

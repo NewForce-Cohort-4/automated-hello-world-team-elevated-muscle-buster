@@ -1,11 +1,17 @@
 const turkeyCelebrityArray = [
     {
-        name: "Michaelangelo"
+        name: "xx"
     },
     {
-        name: "Julius Ceasar"
+        name: "yy"
     },
     {
-        name: "Leonardo Davinci"
+        name: "zz"
     }
 ]
+
+//Exports to Celebrity.js
+export function useturkeyCelebrity() {
+return turkeyCelebrityArray.slice()
+}
+

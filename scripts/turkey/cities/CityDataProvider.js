@@ -1,11 +1,17 @@
 const turkeyCityArray = [
     {
-        name: "Michaelangelo"
+        name: "hh"
     },
     {
-        name: "Julius Ceasar"
+        name: "VV"
     },
     {
-        name: "Leonardo Davinci"
+        name: "MM"
     }
 ]
+
+//Exports to CityList.js
+
+export function useturkeyCity() {
+    return turkeyCityArray.slice()
+}
