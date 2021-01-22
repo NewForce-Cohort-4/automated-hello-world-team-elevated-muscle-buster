@@ -1,11 +1,17 @@
 const turkeyLandmarkArray = [
     {
-        name: "Michaelangelo"
+        name: "HAGIA SOPHIA"
     },
     {
-        name: "Julius Ceasar"
+        name: "SULTANAHMET MOSQUE"
     },
     {
-        name: "Leonardo Davinci"
+        name: "DOLMABAHCE PALACEL"
     }
 ]
+
+//Exports to LandmarkList.js
+
+export function useturkeyLandmark() {
+    return turkeyLandmarkArray.slice()
+}

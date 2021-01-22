@@ -1,11 +1,17 @@
 const turkeyCelebrityArray = [
     {
-        name: "Michaelangelo"
+        name: " Beren Saat"
     },
     {
-        name: "Julius Ceasar"
+        name: "Tuba Büyüküstün"
     },
     {
-        name: "Leonardo Davinci"
+        name: " Hazal Kaya"
     }
 ]
+
+//Exports to Celebrity.js
+export function useturkeyCelebrity() {
+return turkeyCelebrityArray.slice()
+}
+
